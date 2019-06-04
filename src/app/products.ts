@@ -22,6 +22,12 @@ export const products = [
     price: 999,
     storage : 128,
     description: 'The largest phone'
+  },
+  {
+    name: 'Phone Big Foot 32',
+    price: 999,
+    storage : 128,
+    description: 'The largest phone'
   }
 ];
 
