@@ -16,6 +16,10 @@ checkoutForm;
     private formBuilder: FormBuilder
     ) {
       this.items = this.cartService.getItems();
+      this.checkoutForm = this.formBuilder.group({ 
+      name: '',
+      address: ''
+    });
      }
 
   ngOnInit() {
